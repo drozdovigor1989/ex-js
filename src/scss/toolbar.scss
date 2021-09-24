@@ -1,0 +1,15 @@
+@import "var";
+@import "mixins";
+.exel__toolbar{
+  height: $toolbar-height;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: $header-height;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  padding: 7px 9px;
+  button{
+    @include button()
+  }
+}
